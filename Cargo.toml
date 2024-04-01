@@ -1,8 +1,15 @@
 [package]
 name = "demangle"
 version = "0.1.0"
+authors = ["Valentine Briese <valentinegb@icloud.com>"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "CLI tool for quickly demangling a symbol"
+repository = "https://github.com/valentinegb/demangle"
+license = "MIT"
+categories = ["command-line-utilities", "development-tools::ffi"]
 
 [dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+symbolic = { version = "12.8.0", default-features = false, features = [
+    "demangle",
+] }
