@@ -16,6 +16,13 @@ demangle <LANGUAGE> <SYMBOL>
 
 Use `demangle --help` for more.
 
+## Example
+
+```txt
+% demangle swift '_$s10Foundation15AttributeScopesO7SwiftUIE05swiftE0AcDE0D12UIAttributesVmvg'
+(extension in SwiftUI):Foundation.AttributeScopes.swiftUI.getter : (extension in SwiftUI):Foundation.AttributeScopes.SwiftUIAttributes.Type
+```
+
 ## Installation
 
 ```sh
