@@ -4,6 +4,8 @@
 
 CLI tool for quickly demangling a symbol
 
+Supports the same languages as [symbolic-demangle](https://github.com/getsentry/symbolic/tree/master/symbolic-demangle): C++, Rust, Swift, and ObjC.
+
 Powered by [symbolic](https://github.com/getsentry/symbolic) and [clap](https://github.com/clap-rs/clap).
 
 ## Usage
