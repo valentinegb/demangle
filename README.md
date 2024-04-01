@@ -4,6 +4,8 @@
 
 CLI tool for quickly demangling a symbol
 
+Powered by [symbolic](https://github.com/getsentry/symbolic) and [clap](https://github.com/clap-rs/clap).
+
 ## Usage
 
 ```txt
