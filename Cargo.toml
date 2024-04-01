@@ -1,6 +1,6 @@
 [package]
 name = "demangle"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Valentine Briese <valentinegb@icloud.com>"]
 edition = "2021"
 description = "CLI tool for quickly demangling a symbol"
